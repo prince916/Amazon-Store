@@ -20,9 +20,12 @@ const config: Config = {
       },
       colors: {
         amazon_blue: "#131921",
-        amazon_light: "#232F#E",
+        amazon_light: "#232F3E",
         amazon_yellow: "#febd69",
         lightText: "#ccc",
+      },
+      fontFamily: {
+        bodyFont: ['Poppins', 'sans-serif'],
       },
     },
   },
