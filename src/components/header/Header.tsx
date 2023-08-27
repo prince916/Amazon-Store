@@ -53,9 +53,12 @@ const Header = () => {
           </p>
         </div>
         {/* cart */}
-        <div className='text-xs text-gray-100 flex flex-col justify-center 
-        px-2 cursor-pointer border border-transparent hover:border-white duration-300 h-[70%]'>
-          <Image className='w-[50px] h-full' src={CartIcon} alt='CartImg' />
+        <div className='text-xs text-gray-100 flex justify-center items-center
+        px-2 cursor-pointer border border-transparent hover:border-white duration-300 h-[70%] relative'>
+
+          <Image className='w-auto h-8 object-cover' src={CartIcon} alt='CartImg' />
+          <p className='text-sx text-white font-bold mt-3'>Cart</p>
+          <span className='absolute text-sm left-[29px] top-2 font-semibold text-amazon_yellow'>0</span>
         </div>
       </div>
     </div>
