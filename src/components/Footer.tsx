@@ -8,7 +8,8 @@ const Footer = () => {
         <Image className='w-24' src={logo} alt='logo'/>
         <p>
             All rights reserved{" "}
-            <a href="https:/reactbd.com" target='_blank'>@reactbd.com</a>
+            <a className='hover:text-white hover:underline decoration-[1px] 
+            cursor-pointer duration-300' href="https:/reactbd.com" target='_blank'>@reactbd.com</a>
         </p>
     </div>
   )
