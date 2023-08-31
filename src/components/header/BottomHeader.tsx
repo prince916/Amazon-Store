@@ -22,7 +22,7 @@ const BottomHeader = () => {
       </p>
       <p className='hidden md:inline-flex items-center gap-1 h-8 border border-transparent
       hover:border-white cursor-pointer duration-300 px-2'>
-        Gift Cards
+        Gift Card
       </p>
       <p className='hidden md:inline-flex items-center gap-1 h-8 border border-transparent
       hover:border-white cursor-pointer duration-300 px-2'>

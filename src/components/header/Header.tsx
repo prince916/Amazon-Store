@@ -15,7 +15,7 @@ const Header = () => {
         duration-300 flex items-center justify-center h-[70%]'>
           <Image className="w-28 object-cover mt-2" src={logo} alt='logoImg' />
         </div>
-        {/* Delivery */}
+        {/* Deliverydetail */}
         <div className='px-2 border border-transparent hover:border-white cursor-pointer
         duration-300 items-center justify-center h-[70%] hidden xl:inline-flex gap-1'>
           <SlLocationPin />
