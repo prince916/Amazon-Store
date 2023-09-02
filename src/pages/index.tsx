@@ -1,6 +1,6 @@
-import Header from '@/components/header/Header'
-import BottomHeader from '@/components/header/BottomHeader'
-import Footer from '@/components/Footer'
+import Header from '@/components/header/Header';
+import BottomHeader from '@/components/header/BottomHeader';
+import Footer from '@/components/Footer';
 
 
 export default function Home() {
