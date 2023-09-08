@@ -5,6 +5,8 @@ import sliderImg_3 from "../images/slider/sliderImg_3.jpg"
 import sliderImg_4 from "../images/slider/sliderImg_4.jpg"
 import sliderImg_5 from "../images/slider/sliderImg_5.jpg"
 import sliderImg_6 from "../images/slider/sliderImg_6.jpg"
+import sliderImg_7 from "../images/slider/sliderImg_7.jpg"
+import sliderImg_8 from "../images/slider/sliderImg_8.jpg"
 import Image from 'next/image';
 
 const Banner = () => {
@@ -35,6 +37,12 @@ const Banner = () => {
                 </div>
                 <div>
                     <Image src={sliderImg_6} alt='img6' />
+                </div>
+                <div>
+                    <Image src={sliderImg_7} alt='img7' />
+                </div>
+                <div>
+                    <Image src={sliderImg_8} alt='img8' />
                 </div>
             </Carousel>
             <div className='w-full h-40 bg-gradient-to-t from-gray-100 to-transparent
