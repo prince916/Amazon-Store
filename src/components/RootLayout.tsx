@@ -1,12 +1,20 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
+import Header from './header/Header'
+import BottomHeader from './header/BottomHeader'
+import Footer from './Footer'
 
-const RootLayout = () => {
-  return (
-    <div>
-      <h1>Roothere</h1>
-      <button>click me</button>
-    </div>
-  )
+interface Props {
+  children:ReactElement;
 }
 
+const RootLayout = ({children}: Props) => {
+  return (
+    <>
+      <Header />
+      <BottomHeader />
+      {children}
+      <Footer />
+    </>
+  );
+};
 export default RootLayout
