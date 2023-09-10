@@ -18,7 +18,7 @@ const Banner = () => {
             showStatus={false}
             showIndicators={false}
             showThumbs={false}
-            interval={2000}
+            interval={2200}
             >
                 <div>
                     <Image priority src={sliderImg_1} alt='img1' />
