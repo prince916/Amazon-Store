@@ -39,10 +39,10 @@ const Banner = () => {
                     <Image src={sliderImg_6} alt='img6' />
                 </div>
                 <div>
-                    <Image src={sliderImg_7} alt='img7' />
+                    <Image src={sliderImg_7} alt='imgSeven' />
                 </div>
                 <div>
-                    <Image src={sliderImg_8} alt='img8' />
+                    <Image src={sliderImg_8} alt='imgEight' />
                 </div>
             </Carousel>
             <div className='w-full h-40 bg-gradient-to-t from-gray-100 to-transparent
