@@ -64,7 +64,7 @@ const Products = ({ productData }: any) => {
               <p className='text-xs text-gray-500 texrt-justify'>
                 {description.substring(0, 120)}
               </p>
-              <button className='bg-amazon_blue h-10 font-medium text-white'>Add to cart</button>
+              <button className='bg-amazon_blue h-10 py-2 font-medium text-white'>Add to cart</button>
             </div>
           </div>
         ))}
