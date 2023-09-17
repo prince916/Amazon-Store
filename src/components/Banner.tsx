@@ -39,7 +39,7 @@ const Banner = () => {
                     <Image src={sliderImg_6} alt='img6' />
                 </div>
                 <div>
-                    <Image src={sliderImg_7} alt='imgSeven' />
+                    <Image src={sliderImg_7} alt='img' />
                 </div>
                 <div>
                     <Image src={sliderImg_8} alt='imgEight' />
