@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { ProductProps } from '../../type.d';
 import Image from 'next/image';
 import { HiShoppingCart } from 'react-icons/hi';
@@ -72,4 +72,4 @@ const Products = ({ productData }: any) => {
   );
 };
 
-export default Products
+export default Products;

@@ -1,5 +1,5 @@
-import React from 'react'
-import { LuMenu } from 'react-icons/lu'
+import React from 'react';
+import { LuMenu } from 'react-icons/lu';
 
 const BottomHeader = () => {
   return (

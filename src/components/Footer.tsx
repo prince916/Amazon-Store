@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 import logo from "../images/logo.png";
 
 const Footer = () => {
@@ -15,4 +15,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
