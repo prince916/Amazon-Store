@@ -1,12 +1,12 @@
 import { Carousel } from 'react-responsive-carousel';
-import sliderImg_1 from "../images/slider/sliderImg_1.jpg"
-import sliderImg_2 from "../images/slider/sliderImg_2.jpg"
-import sliderImg_3 from "../images/slider/sliderImg_3.jpg"
-import sliderImg_4 from "../images/slider/sliderImg_4.jpg"
-import sliderImg_5 from "../images/slider/sliderImg_5.jpg"
-import sliderImg_6 from "../images/slider/sliderImg_6.jpg"
-import sliderImg_7 from "../images/slider/sliderImg_7.jpg"
-import sliderImg_8 from "../images/slider/sliderImg_8.jpg"
+import sliderImg_1 from "../images/slider/sliderImg_1.jpg";
+import sliderImg_2 from "../images/slider/sliderImg_2.jpg";
+import sliderImg_3 from "../images/slider/sliderImg_3.jpg";
+import sliderImg_4 from "../images/slider/sliderImg_4.jpg";
+import sliderImg_5 from "../images/slider/sliderImg_5.jpg";
+import sliderImg_6 from "../images/slider/sliderImg_6.jpg";
+import sliderImg_7 from "../images/slider/sliderImg_7.jpg";
+import sliderImg_8 from "../images/slider/sliderImg_8.jpg";
 import Image from 'next/image';
 
 const Banner = () => {
