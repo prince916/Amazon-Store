@@ -4,8 +4,10 @@ import Image from 'next/image';
 import { HiShoppingCart } from 'react-icons/hi';
 import { FaHeart } from 'react-icons/fa';
 import FormattedPrice from './FormattedPrice';
-const Products = ({ productData }: any) => {
+import { useDispatch } from 'react-redux';
 
+const Products = ({ productData }: any) => {
+  const dispatch = useDispatch();
   return (
     <div className='w-full px-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6'>
       {productData.map(
