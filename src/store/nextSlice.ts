@@ -1,11 +1,19 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { StoreProduct } from "../../type.d";
 
 
-const initialState = {
-    productData : [],
-    favoriteData : [],
-    allProducts : [],
-    userInfo : null,
+interface NextState{
+    productData: StoreProduct[];
+    favoriteData: StoreProduct[];
+    allProducts: StoreProduct[],
+    userInfo: null | string;
+}
+
+const initialState:NextState = {
+    productData: [],
+    favoriteData: [],
+    allProducts: [],
+    userInfo: null,
 };
 
 export const nextSlice = createSlice({
@@ -13,7 +21,19 @@ export const nextSlice = createSlice({
     initialState,
     reducers: {
         addToCart: (state, action) => {
-            state.productData = action.payload;
+            const existingProduct = state.productData.find(
+                (item: StoreProduct) => item._id === action.payload._id
+            );
+            if(existingProduct){
+                existingProduct.quantity += action.payload.quantity
+            }else{
+                state.productData.push(action.payload)
+            }
+        },
+        addTofavorite:(state,action) => {
+            const existingProduct = state.productData.find(
+                (item: StoreProduct) => item._id === action.payload._id
+            );
         },
     },
 });
