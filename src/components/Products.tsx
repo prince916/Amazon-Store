@@ -5,6 +5,7 @@ import { HiShoppingCart } from 'react-icons/hi';
 import { FaHeart } from 'react-icons/fa';
 import FormattedPrice from './FormattedPrice';
 import { useDispatch } from 'react-redux';
+import { addToCart } from '@/store/nextSlice';
 
 const Products = ({ productData }: any) => {
   const dispatch = useDispatch();
@@ -66,11 +67,31 @@ const Products = ({ productData }: any) => {
               <p className='text-xs text-gray-500 texrt-justify'>
                 {description.substring(0, 120)}
               </p>
-              <button className='bg-amazon_blue h-10 mt-2 font-medium text-white hover:bg-amazon_yellow hover:text-black'>Add to cart</button>
+              <button
+                onClick={() => {
+                  dispatch(
+                    addToCart({
+                      _id: _id,
+                      brand: brand,
+                      category: category,
+                      image: image,
+                      description: description,
+                      isNew: isNew,
+                      oldPrice: oldPrice,
+                      price: price,
+                      title: title,
+                      quantity: 1,
+                    })
+                  )
+                }}
+                className='bg-amazon_blue h-10 mt-2 font-medium text-white hover:bg-amazon_yellow hover:text-black'>
+                Add to cart
+              </button>
             </div>
           </div>
-        ))}
-    </div>
+        ))
+      }
+    </div >
   );
 };
 
