@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This is own built E-commerce Website
 
+New Update
+
 First, run the development server:
 
 ```bash
