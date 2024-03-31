@@ -1,6 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { StoreProduct } from "../../type.d";
 
+// new status
+
 
 interface NextState{
     productData: StoreProduct[];
